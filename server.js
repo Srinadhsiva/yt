@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Serve static files from the "public" directory
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'index.html')));
 
 const users = [
     { username: 'user1', password: 'password1' },
